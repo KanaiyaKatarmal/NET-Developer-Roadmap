@@ -51,7 +51,7 @@ Each feature must be self-contained.
 
 Example structure:
 
-Application/Features/BookFeature/CreateBook/
+Application/Features/Book/CreateBook/
 
 -   CreateBookHandler.cs
 -   CreateBookValidator.cs
