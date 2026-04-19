@@ -100,18 +100,6 @@ Example:
 
 RuleFor(x =\> x.Title) .NotEmpty() .MaximumLength(200);
 
-------------------------------------------------------------------------
-
-## Repository Usage
-
-Application layer uses abstractions:
-
--   IRepository`<T>`{=html}
--   IUnitOfWork
-
-Infrastructure layer implements them.
-
-Handlers must never access DbContext directly.
 
 ------------------------------------------------------------------------
 
